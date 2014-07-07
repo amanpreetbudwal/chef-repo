@@ -7,14 +7,14 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.16.0'
 
 depends 'java'
-depends 'openssl'
+#depends 'openssl'
 
-supports 'debian'
-supports 'ubuntu'
-supports 'centos'
-supports 'redhat'
-supports 'amazon'
-supports 'scientific'
+#supports 'debian'
+#supports 'ubuntu'
+#supports 'centos'
+#supports 'redhat'
+#supports 'amazon'
+#supports 'scientific'
 
 recipe 'tomcat::default', 'Installs and configures Tomcat'
 recipe 'tomcat::users', 'Setup users and roles for Tomcat'
