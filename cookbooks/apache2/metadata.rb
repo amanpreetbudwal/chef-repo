@@ -48,20 +48,20 @@ recipe            'apache2::mod_ssl', 'Apache module "ssl" with config file, add
 recipe            'apache2::mod_status', 'Apache module "status" with config file'
 recipe            'apache2::mod_xsendfile', 'Apache module "xsendfile"'
 
-depends 'iptables'
+#depends 'iptables'
 
-supports 'amazon'
-supports 'arch'
-supports 'centos'
-supports 'debian'
-supports 'fedora'
-supports 'freebsd'
-supports 'redhat'
-supports 'scientific'
-supports 'ubuntu'
+#supports 'amazon'
+#supports 'arch'
+#supports 'centos'
+#supports 'debian'
+#supports 'fedora'
+#supports 'freebsd'
+#supports 'redhat'
+#supports 'scientific'
+#supports 'ubuntu'
 
-depends 'logrotate'
-depends 'pacman'
+#depends 'logrotate'
+#depends 'pacman'
 
 attribute 'apache',
           :display_name => 'Apache Hash',
